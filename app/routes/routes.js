@@ -1,21 +1,14 @@
-
+var multer  = require('multer')
+var upload = multer({ dest: '../uploads/' })
 
 module.exports = (app) => {
     const controller = require('../controllers/controller.js');
 
-
-
     app.get('/api/marco_polo/:startR/:endR',controller.GetMarcoPole);
     
-   
-    app.get('/api/user/:userId',controller.GetUserById);
-    
-    // app.put('/api/user/:userId', users.UpdateUserById);
+    // Generate Invoice No
+    // app.post('/api/SingleInvoiceUpload', upload.single('avatar.txt'), controller.GetDecodedFile);
 
-    // Add new contact
-    // app.post('/api/addContact', users.AddContacts);
-
- 
     
 }
 
