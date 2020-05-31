@@ -1,0 +1,33 @@
+{
+  "name": "techgropse_assessment",
+  "version": "1.0.0",
+  "description": "Node Interview Excercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tesolotech/TechGropse_Assessments.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "FS",
+    "CALCULATION",
+    "LOGIC",
+    "API",
+    "NODEJS",
+    "EXPRESS"
+  ],
+  "author": "VIKASH KUMAR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tesolotech/TechGropse_Assessments/issues"
+  },
+  "homepage": "https://github.com/tesolotech/TechGropse_Assessments#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  }
+}
